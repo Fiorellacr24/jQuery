@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1024px;
+    margin: 0px auto;
+}
+header{
+    text-align: right;
+    padding: 10px 0;
+}
+.brand-popup{
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px 20px;
+}
+.brand-popup h3{
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+.brand-popup .popup-close{
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: block;
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block:
+}
